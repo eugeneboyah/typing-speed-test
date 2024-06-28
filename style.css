@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #17a2b7;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    background-color: #ffff;
+    width: 60%;
+    margin: 8rem 30% 0 20%;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.main h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0.7rem;
+}
+.main p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.game-box{
+    border: 1px solid gray;
+}
+.game-box textarea{
+    width: 100%;
+    outline: white;
+    border: none;
+    padding: 5px;
+    
+}
+.score{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    font-size: large;
+    margin-left: 30px;
+}
+.score button{
+    font-size: larger;
+    background-color: #17a2b7;
+    border: none;
+    border: 1px solid #17a2b7;
+    padding: 2px;
+    border-radius: 5px;
+}
